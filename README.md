@@ -122,6 +122,10 @@ IPv6:         Disabled
 
 A **NAT Network** was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
 
+<img width="711" height="531" alt="Network setting ss" src="https://github.com/user-attachments/assets/e205b826-f452-4aac-bd31-2517b4fca6d7" />
+
+
+
 This will allow future attacker and target VMs to communicate within the lab.
 
 
@@ -145,7 +149,9 @@ The VM was allocated:
 ```text
 RAM: 2048 MB
 ```
-![](3-screenshot-kali-linux.png)
+<img width="1417" height="831" alt="kali ss" src="https://github.com/user-attachments/assets/677b9f13-69da-42a3-8838-ebfb0185865b" />
+
+
 A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
 
 
